@@ -1,0 +1,49 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark grey lighten-1">
+
+  <!-- Navbar brand -->
+  <logo>
+    <a class="navbar-brand" href="#" routerLink="home">
+      <img src="../../../assets/logo-sm.png" alt="Designer Hub"><span style="color: Black; font-size: 24px">Designer<span style="color: #EF7300; font-weight: bolder">Hub</span></span>
+    </a>
+  </logo>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link waves-light" routerLink="/home">Home</a>
+      </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown" dropdown routerLinkActive="active">
+        <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light" mdbRippleRadius>
+          Design Companies<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" href="#" routerLink="/fire-protection">Fire Protection</a>
+          <a class="dropdown-item waves-light" href="#" routerLink="/fire-alarm">File Alarms & Special Hazards</a>
+          <a class="dropdown-item waves-light" href="#" routerLink="/plumbing">Plumbing</a>
+          <a class="dropdown-item waves-light" href="#" routerLink="/electrical">Electrical</a>
+          <a class="dropdown-item waves-light" href="#" routerLink="/mechanical">Mechanical</a>
+        </div>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link waves-light" routerLink="/employment-board">Employment Board</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link waves-light" routerLink="about-us">About Us</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+    <!--&lt;!&ndash; Search form &ndash;&gt;-->
+    <!--<form class="form-inline  waves-light" mdbRippleRadius>-->
+      <!--<input class="form-control mr-sm-2" type="text" placeholder="Search">-->
+    <!--</form>-->
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
+

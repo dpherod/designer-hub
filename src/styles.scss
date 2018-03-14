@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-image: url(./assets/back_1.jpg) ;
+}
+
+/* Change default left/right margins for container within mdb-navbar */
+mdb-navbar .container {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.jumbotron {
+  margin-top: 2rem;
+}
